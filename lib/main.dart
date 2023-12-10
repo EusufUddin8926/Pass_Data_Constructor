@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: {
+     /* routes: {
         "page2": (context) => Screen_2(),
         "page3": (context) => Screen_3(),
         "page4": (context) => Screen_4(),
-      },
+      },*/
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(

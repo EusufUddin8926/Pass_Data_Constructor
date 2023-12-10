@@ -26,6 +26,7 @@ class _Screen_1State extends State<Screen_1> {
               onPressed: (){
                // Navigator.of(context).push(MaterialPageRoute(builder: (context)=> Screen_2()));
               //  Navigator.of(context).pushNamed("page2");
+                Navigator.of(context).push(MaterialPageRoute(builder: (context)=> Screen_2(pageName: "Page 2", prevPageName: "Page 1",)));
               },
               child: Text("Go To Page 2"),
             ),
