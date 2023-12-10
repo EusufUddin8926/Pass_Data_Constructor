@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:pass_data_screen/screens/screen_2.dart';
 
-class Screen_1 extends StatefulWidget {
-  const Screen_1({super.key});
+class Screen_4 extends StatefulWidget {
+  const Screen_4({super.key});
 
   @override
-  State<Screen_1> createState() => _Screen_1State();
+  State<Screen_4> createState() => _Screen_4State();
 }
 
-class _Screen_1State extends State<Screen_1> {
+class _Screen_4State extends State<Screen_4> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Page 1", style: TextStyle(color: Colors.white)),
+        title: Text("Page 4", style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.cyan,
       ),
       body: Container(
@@ -24,10 +23,9 @@ class _Screen_1State extends State<Screen_1> {
             MaterialButton(
               color: Colors.cyan,
               onPressed: (){
-               // Navigator.of(context).push(MaterialPageRoute(builder: (context)=> Screen_2()));
-              //  Navigator.of(context).pushNamed("page2");
+              //  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> Screen_2()));
               },
-              child: Text("Go To Page 2"),
+              child: Text("Go Back"),
             ),
           ],
         ),
